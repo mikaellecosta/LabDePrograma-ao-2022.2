@@ -7,6 +7,11 @@
 
 4 - https://github.com/mikaellecosta/Lista.04-LabDeProgramacao
 
+5 - 
+
+6 - https://github.com/mikaellecosta/Lista.06-LabDeProgramacao-
+
+
 # Desafios:
 1 - https://github.com/mikaellecosta/Sistema.de.Armarios-Desafio1
 
