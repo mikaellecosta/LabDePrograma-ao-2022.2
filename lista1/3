@@ -1,16 +1,12 @@
-//Faça um programa que leia um valor inteiro decimal X e escreva, na tela, este mesmo valor nas bases hexadecimal e octal.
+## Questão 3:
+Faça um programa capaz de ler um valor real e escreve-lo com apenas uma casa decimal.
 
 #include <stdio.h>
 
-void conversao(n1){
-  printf("Hexa: %x \n", n1);
-  printf("Octal: %o", n1);
-}
-
 int main() {
-  int n1;
-  printf("Número: ");
-  scanf("%d",&n1);
-  conversao(n1);
-  return 0;
+  float n;
+  //puts = printf \n
+  printf("Numero: ");
+  scanf("%f", &n);
+  printf("%0.1f", n);
 }
