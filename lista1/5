@@ -1,0 +1,13 @@
+## Questão 5:
+Escreva um programa que pegue o valor de uma conta de restaurante e imprima o valor total a ser pago, considerando que o restaurante cobra 10% de taxa para o garçom.
+
+#include <stdio.h>
+
+int main() {
+  float x,y;
+  printf("Valor da conta: ");
+  scanf("%f",&x);
+  y = (0.1 * x) + x;
+  printf("Valor total com 10%%: %0.2f",y);
+  return 0;
+}
