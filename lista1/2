@@ -1,7 +1,7 @@
 ## Questão 2:
 Faça um programa que leia um valor inteiro decimal X e escreva, na tela, este mesmo valor nas bases
 hexadecimal e octal.
-``` c
+
 #include <stdio.h>
 
 void conversao(n1){
@@ -16,4 +16,4 @@ int main() {
   conversao(n1);
   return 0;
 }
-```
+
